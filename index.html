@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Valentine Moments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./.vscode/script.js" defer></script>
+
+</head>
+<body>
+
+  <div class="page">
+    <h1>Valentine Moments ❤️</h1>
+    <p class="subtitle">
+      For <span class="name">Sruthi S Machat</span> ✨
+    </p>
+
+    <button class="music-btn" id="musicBtn">▶ Play Music</button>
+
+    <!-- Classy Hover Card -->
+    <div class="card-wrap">
+      <div class="hover-card">
+        <div class="heart left"></div>
+        <div class="message">
+          <h3>For You</h3>
+          <p>Every moment with you feels special.</p>
+        </div>
+        <div class="heart right"></div>
+      </div>
+    </div>
+
+    <!-- Valentine Week -->
+    <div class="grid">
+      <div class="day" data-day="7">7 Feb<br><span>Rose Day</span></div>
+      <div class="day" data-day="8">8 Feb<br><span>Propose Day</span></div>
+      <div class="day" data-day="9">9 Feb<br><span>Chocolate Day</span></div>
+      <div class="day" data-day="10">10 Feb<br><span>Teddy Day</span></div>
+      <div class="day" data-day="11">11 Feb<br><span>Promise Day</span></div>
+      <div class="day" data-day="12">12 Feb<br><span>Hug Day</span></div>
+      <div class="day" data-day="13">13 Feb<br><span>Kiss Day</span></div>
+      <div class="day" data-day="14">14 Feb<br><span>Valentine’s Day</span></div>
+    </div>
+  </div>
+
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-card">
+      <h2 id="popup-title"></h2>
+      <p id="popup-msg"></p>
+      <button id="closeBtn">Close</button>
+    </div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" src="./.vscode/music/romantic.mp3" loop></audio>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti"></canvas>
+
+</body>
+</html>
